@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>LyteSpeed</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <style>
+        * {box-sizing: border-box;}
+        #myInput {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        #myTable{
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            font-size: 18px;
+        }
+
+        #myTable th, #myTable td {
+            text-align: left;
+            padding: 12px;
+        }
+
+        #myTable tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        #myTable tr.header, #myTable tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+
+    <body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+                <h1><br /></h1>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="windows.html">Windows</a></li>
+							<li><a href="mac.html">Mac</a></li>
+							<li><a href="linux.html">Linux</a></li>
+                            <li><a href="request.html">Request Package</a><li>
+						</ul>
+						<ul class="icons">
+							<li>LyteSpeed</li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<header class="major">
+							<h1>Windows</h1>
+							<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for program" title="">
+						</header>
+                <!-- Table -->
+						<table id="myTable">
+                            <tr class="header">
+                            <th style="width:60%;">Name</th>
+                            <th style="width:40%;">Description</th>
+                        </tr>
+                        <tr>
+                            <td><a href="win/android.exe">Android Studio 2.3.3.exe</a> (1.88G)</td>
+                            <td>Windows Standalone Installer. Includes Android SDK</td>
+                        </tr>
+                        <tr>
+                            <td><a href="win/VSCode.zip">Visual Studio Code.zip</a> (64M)</td>
+                            <td>Visual Studio Code Zip file with installer</td>
+                        </tr>
+			<tr>
+                            <td><a href="win/pycharm-community-2017.1.4.exe">Pycharm Community 2017.1.4.exe</a> (150M)</td>
+                            <td>Windows Installer for Pycharm Community IDE</td>
+                        </tr>
+                        </table>
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>LyteSpeed</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script src="assets/js/search.js"></script>
+	</body>
+</html>
