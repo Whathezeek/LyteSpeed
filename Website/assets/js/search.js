@@ -1,4 +1,4 @@
-1function myFunction() {
+function myFunction() {
             var input, filter, table, tr, td, i;
             input = document.getElementById("myInput");
             filter = input.value.toUpperCase();
